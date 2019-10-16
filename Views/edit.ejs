@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Edit Monster</title>
+        <link rel="stylesheet" href="/app.css">
+    </head>
+    <body>
+        <h2>Edit <%=monsters.name%> stats:</h2>
+        <form method="POST" action="/monsters/<%=index%>?_method=PUT">
+            Armor Class: <input type="text" name="ac" value="<%=monsters.ac%>"/><br/>
+            Hit Points: <input type="text" name="hp" value="<%=monsters.hp%>"/><br/>
+            Attack Bonus: <input type="text" name="att" value="<%=monsters.att%>"/><br/>
+            Damage: <input type="text" name="dmg" value="<%=monsters.dmg%>"/><br/>
+            <br/>
+            <input type="submit" name="" value="Submit Changes"/>
+        </form>
+    </body>
+</html>
