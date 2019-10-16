@@ -14,5 +14,10 @@
         </ul>
         <a href="/monsters">back</a> 
         <a href="/monsters/<%=index%>/edit">edit</a>
+        <a href="/monsters/<%=index%>?_method=DELETE">
+        <br>
+        <form method="POST" action="/monsters/<%=index%>?_method=DELETE">
+            <button type="submit">Delete</button>
+        </form>
     </body>
 </html>
