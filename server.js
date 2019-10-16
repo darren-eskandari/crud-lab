@@ -33,7 +33,9 @@ app.put('/monsters/:index', (req, res) => {
         dmg: req.body.dmg
     }
     Monsters.splice(req.params.index, 1, updatedMonster);
-    res.redirect('/monsters');
+    res.render('show.ejs', { 
+        monsters: Monsters[req.params.index] 
+    });
 });
 
 
