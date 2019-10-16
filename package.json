@@ -1,0 +1,22 @@
+{
+  "name": "crud-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darren-eskandari/crud-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darren-eskandari/crud-lab/issues"
+  },
+  "homepage": "https://github.com/darren-eskandari/crud-lab#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
